@@ -35,3 +35,7 @@ Error 1 at reading or storing sensor data.
 pigpio.error: 'I2C read failed'
 
 
+New initialisation demanded at: 2025-05-13 22:18:01
+
+Running in version 1.0
+
