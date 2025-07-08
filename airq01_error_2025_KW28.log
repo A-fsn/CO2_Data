@@ -21,3 +21,35 @@ Error 1 at reading or storing sensor data.
 pigpio.error: 'I2C read failed'
 
 
+[2025-07-07 23:31:05]
+Git repositories synchronized
+	
+
+	NoneType: None
+
+
+[2025-07-07 23:31:05]
+Terminating programm
+	
+
+	NoneType: None
+
+
+New initialisation demanded at: 2025-07-08 01:27:00
+
+Running in version 1.2
+
+[2025-07-08 08:00:13]
+Error 1 at reading or storing sensor data.
+	I2C read failed
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 192, in read_all
+    self.read_logorithm_results()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 188, in read_logorithm_results
+    raise Exception (pigpio.error_text(b))
+Exception: I2C read failed
+
+
