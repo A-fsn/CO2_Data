@@ -1,0 +1,187 @@
+Programm started at: 2026-01-05 00:32:53
+
+Running in version 1.2[2026-01-05 16:52:25]
+Error 1 at reading or storing sensor data.
+	'I2C read failed'
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 191, in read_all
+    if self.data_available():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 172, in data_available
+    value = self.pi.i2c_read_byte_data(self.device, CSS811_STATUS)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 2874, in i2c_read_byte_data
+    return _u2i(_pigpio_command(self.sl, _PI_CMD_I2CRB, handle, reg))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 1011, in _u2i
+    raise error(error_text(v))
+pigpio.error: 'I2C read failed'
+
+
+New initialisation demanded at: 2026-01-06 00:33:45
+
+Running in version 1.2
+
+New initialisation demanded at: 2026-01-07 00:33:56
+
+Running in version 1.2
+
+[2026-01-07 08:27:11]
+Error 1 at reading or storing sensor data.
+	'I2C read failed'
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 191, in read_all
+    if self.data_available():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 172, in data_available
+    value = self.pi.i2c_read_byte_data(self.device, CSS811_STATUS)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 2874, in i2c_read_byte_data
+    return _u2i(_pigpio_command(self.sl, _PI_CMD_I2CRB, handle, reg))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 1011, in _u2i
+    raise error(error_text(v))
+pigpio.error: 'I2C read failed'
+
+
+New initialisation demanded at: 2026-01-08 00:33:00
+
+Running in version 1.2
+
+New initialisation demanded at: 2026-01-09 00:34:03
+
+Running in version 1.2
+
+[2026-01-09 09:59:21]
+Error 1 at reading or storing sensor data.
+	'I2C read failed'
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 191, in read_all
+    if self.data_available():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 172, in data_available
+    value = self.pi.i2c_read_byte_data(self.device, CSS811_STATUS)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 2874, in i2c_read_byte_data
+    return _u2i(_pigpio_command(self.sl, _PI_CMD_I2CRB, handle, reg))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 1011, in _u2i
+    raise error(error_text(v))
+pigpio.error: 'I2C read failed'
+
+
+New initialisation demanded at: 2026-01-10 00:33:58
+
+Running in version 1.2
+
+[2026-01-10 05:15:07]
+Error 1 at reading or storing sensor data.
+	I2C read failed
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 192, in read_all
+    self.read_logorithm_results()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 188, in read_logorithm_results
+    raise Exception (pigpio.error_text(b))
+Exception: I2C read failed
+
+
+[2026-01-10 17:39:33]
+Error 1 at reading or storing sensor data.
+	I2C read failed
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 192, in read_all
+    self.read_logorithm_results()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 188, in read_logorithm_results
+    raise Exception (pigpio.error_text(b))
+Exception: I2C read failed
+
+
+New initialisation demanded at: 2026-01-11 00:33:01
+
+Running in version 1.2
+
+[2026-01-11 05:19:10]
+Error 1 at reading or storing sensor data.
+	I2C read failed
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 192, in read_all
+    self.read_logorithm_results()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 188, in read_logorithm_results
+    raise Exception (pigpio.error_text(b))
+Exception: I2C read failed
+
+
+[2026-01-11 12:55:26]
+Error 1 at reading or storing sensor data.
+	'I2C read failed'
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 191, in read_all
+    if self.data_available():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 172, in data_available
+    value = self.pi.i2c_read_byte_data(self.device, CSS811_STATUS)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 2874, in i2c_read_byte_data
+    return _u2i(_pigpio_command(self.sl, _PI_CMD_I2CRB, handle, reg))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 1011, in _u2i
+    raise error(error_text(v))
+pigpio.error: 'I2C read failed'
+
+
+[2026-01-11 13:57:29]
+Error 1 at reading or storing sensor data.
+	I2C read failed
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 192, in read_all
+    self.read_logorithm_results()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 188, in read_logorithm_results
+    raise Exception (pigpio.error_text(b))
+Exception: I2C read failed
+
+
+[2026-01-11 15:14:33]
+Error 1 at reading or storing sensor data.
+	'I2C read failed'
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 191, in read_all
+    if self.data_available():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 172, in data_available
+    value = self.pi.i2c_read_byte_data(self.device, CSS811_STATUS)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 2874, in i2c_read_byte_data
+    return _u2i(_pigpio_command(self.sl, _PI_CMD_I2CRB, handle, reg))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 1011, in _u2i
+    raise error(error_text(v))
+pigpio.error: 'I2C read failed'
+
+

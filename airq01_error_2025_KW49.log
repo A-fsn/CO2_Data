@@ -1,0 +1,40 @@
+Programm started at: 2025-12-01 00:33:28
+
+Running in version 1.2[2025-12-01 02:06:31]
+Error 1 at reading or storing sensor data.
+	I2C read failed
+
+	Traceback (most recent call last):
+  File "/home/raspi/CO2_Project/main.py", line 211, in <module>
+    g_co2_sensor.read_all()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 192, in read_all
+    self.read_logorithm_results()
+  File "/home/raspi/CO2_Project/ccs811LIBRARY.py", line 188, in read_logorithm_results
+    raise Exception (pigpio.error_text(b))
+Exception: I2C read failed
+
+
+New initialisation demanded at: 2025-12-02 00:33:46
+
+Running in version 1.2
+
+New initialisation demanded at: 2025-12-03 00:33:10
+
+Running in version 1.2
+
+New initialisation demanded at: 2025-12-04 00:33:48
+
+Running in version 1.2
+
+New initialisation demanded at: 2025-12-05 00:33:41
+
+Running in version 1.2
+
+New initialisation demanded at: 2025-12-06 00:32:49
+
+Running in version 1.2
+
+New initialisation demanded at: 2025-12-07 00:33:35
+
+Running in version 1.2
+
